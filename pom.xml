@@ -4,6 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+<<<<<<< HEAD
     <groupId>com.odev</groupId>
     <artifactId>untitled2</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -11,6 +12,11 @@
     <modules>
         <module>odev1</module>
     </modules>
+=======
+    <groupId>org.example</groupId>
+    <artifactId>AkilliKampusDersProgrami</artifactId>
+    <version>1.0-SNAPSHOT</version>
+>>>>>>> d0c96499cc2699f84fafafad34e76517e88cd3e9
 
     <properties>
         <maven.compiler.source>27</maven.compiler.source>
