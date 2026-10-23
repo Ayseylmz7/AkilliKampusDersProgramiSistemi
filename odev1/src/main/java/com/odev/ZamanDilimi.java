@@ -1,3 +1,4 @@
+package com.odev;
 public class ZamanDilimi {
     private String gun;
     private String saatAraligi;

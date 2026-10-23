@@ -1,3 +1,4 @@
+package com.odev;
 public class DersProgramiKaydi {
     private Ders ders;
     private OgretimElemani ogretimElemani;

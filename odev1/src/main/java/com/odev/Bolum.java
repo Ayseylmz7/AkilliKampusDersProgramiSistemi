@@ -1,3 +1,4 @@
+package com.odev;
 public class Bolum {
     private String bolumAdi;
 

@@ -1,3 +1,4 @@
+package com.odev;
 public abstract class Ders {
     private String dersKodu;
     private String dersAdi;

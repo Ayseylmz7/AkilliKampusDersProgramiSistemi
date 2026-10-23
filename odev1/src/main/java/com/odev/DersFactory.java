@@ -1,3 +1,4 @@
+package com.odev;
 public class DersFactory {
     public static Ders dersUret(String tip, String kod, String ad, int kredi) {
         if (tip.equalsIgnoreCase("ZORUNLU")) {

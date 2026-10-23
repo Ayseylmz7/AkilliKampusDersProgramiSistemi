@@ -1,3 +1,4 @@
+package com.odev;
 public class Derslik {
     private String derslikKodu;
     private int kapasite;

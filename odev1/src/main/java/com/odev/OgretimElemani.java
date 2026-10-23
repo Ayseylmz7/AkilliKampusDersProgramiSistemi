@@ -1,3 +1,4 @@
+package com.odev;
 public class OgretimElemani {
     private String unvan;
     private String adSoyad;
