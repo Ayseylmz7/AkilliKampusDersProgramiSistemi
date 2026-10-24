@@ -1,6 +1,5 @@
 package org.example;
 
-import org.example.DersProgramiKaydi;
 import java.util.ArrayList;
 import java.util.List;
 

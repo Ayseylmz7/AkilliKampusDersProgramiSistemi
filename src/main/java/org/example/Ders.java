@@ -1,6 +1,10 @@
 package org.example;
 
-public abstract class Ders {
+import java.io.Serializable;
+
+public abstract class Ders implements Serializable {
+    private static final long serialVersionUID = 1L;
+
     private String dersKodu;
     private String dersAdi;
     private int kredi;

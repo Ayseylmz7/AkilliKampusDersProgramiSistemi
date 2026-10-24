@@ -7,7 +7,11 @@ import java.util.List;
 
 public class DataRepository {
 
-    private static final String DOSYA_YOLU = "test_verileri.dat";
+    private static String DOSYA_YOLU = "test_verileri.dat";
+
+    // Birim testlerinin gerçek veri dosyasını bozmaması için dosya yolu değiştirilebilir
+    public static void setDosyaYolu(String yol) { DOSYA_YOLU = yol; }
+    public static String getDosyaYolu() { return DOSYA_YOLU; }
 
     // Verileri dosyaya kaydetme (Serialization)
     public static <T> void verileriKaydet(List<T> veriListesi) {
@@ -34,23 +38,4 @@ public class DataRepository {
             return new ArrayList<>();
         }
     }
-
-    // GEÇİCİ TEST METODU: Çalışıp çalışmadığını görmek için bunu çalıştırabilirsin
-    public static void main(String[] args) {
-        System.out.println("Test başlatılıyor...");
-
-        // Test için basit bir liste oluşturalım (Not: Ders sınıfına Serializable eklenmiş olmalı)
-        List<String> testListesi = new ArrayList<>();
-        testListesi.add("Nesneye Yonelik Programlama");
-        testListesi.add("Veri Yapilari");
-
-        // Kaydetmeyi dene
-        verileriKaydet(testListesi);
-
-        // Okumayı dene
-        List<String> okunanListe = verileriOku();
-        System.out.println("Dosyadan okunan veriler: " + okunanListe);
-    }
 }
-
-
