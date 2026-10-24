@@ -61,3 +61,19 @@ Proje 4 ana katman/modül halinde geliştirilmiştir:
 +--------------+--------------+----------------------+----------------------+------------+
 | Pazartesi    | 09:00-11:00  | Yazılım Mühendisliği | Dr. Öğr. Üyesi Ahmet | Amfi-1     |
 ==========================================================================================
+## 💾 Veri Kalıcılığı
+Veriler Java Serialization ile `test_verileri.dat` dosyasına kaydedilir (`DataRepository`). Program kapatılıp açıldığında ders programı korunur.
+
+## 📐 UML Sınıf Diyagramı
+![UML Sınıf Diyagramı](docs/sinif_diyagrami.png)
+
+## 🧪 Birim Testleri
+Projede JUnit 5 ile 27 birim testi vardır (Factory, Singleton, çakışma algoritması, kalıcılık, girdi doğrulama).
+Çalıştırmak için: `mvn test`
+
+## ▶️ Çalıştırma
+Gereksinim: JDK 21 veya üzeri, Maven.
+```
+mvn compile exec:java -Dexec.mainClass=org.example.Main
+```
+Ya da IntelliJ'de `Main.java` dosyasını çalıştırın.
