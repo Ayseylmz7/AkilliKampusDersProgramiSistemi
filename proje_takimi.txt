@@ -1,0 +1,12 @@
+PROJE: Akıllı Kampüs Ders Programı Sistemi
+GitHub:https://github.com/Ayseylmz7/AkilliKampusDersProgramiSistemi#-modül-dağılımı-ve-sorumluluklar
+
+Öğrenci No | Ad | Soyad | Görev
+-----------------------------------------------------------------------------------------------
+5250505062| Ayşe | Yılmaz | Üye 1: Çekirdek sınıflar (Ders, ZorunluDers, SecmeliDers, DersFactory, Derslik, OgretimElemani, ZamanDilimi, Bolum, DersProgramiKaydi), Singleton ve çakışma önleme algoritması (DersProgramiYoneticisi)
+
+1250505036|Süeda| Kayar  Üye 2: Veri kalıcılığı (DataRepository, serileştirme) ve DersProgramiYoneticisi ile entegrasyonu
+
+1250505027|Ceyda |Ural| Üye 3: Konsol arayüzü (ConsoleMenu), girdi doğrulama (InputHelper), README.md
+
+5250505024|Göknur|Kahraman| Üye 4: Birim testleri (JUnit 5), UML sınıf diyagramı, proje_takimi.txt, sunum videosu senaryosu
